@@ -1,0 +1,519 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = #1044#1080#1085#1072#1084#1080#1095#1077#1089#1082#1072#1103' '#1084#1086#1076#1077#1083#1100' '#1089#1077#1088#1076#1094#1072
+  ClientHeight = 551
+  ClientWidth = 1008
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  inline ModelFrame1: TModelFrame
+    Left = 8
+    Top = 7
+    Width = 223
+    Height = 536
+    Color = cl3DLight
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitTop = 7
+    ExplicitWidth = 223
+    ExplicitHeight = 536
+  end
+  object Panel1: TPanel
+    Left = 15
+    Top = 15
+    Width = 209
+    Height = 146
+    BevelOuter = bvNone
+    Color = clCream
+    ParentBackground = False
+    TabOrder = 1
+    object Label3: TLabel
+      Left = 60
+      Top = 116
+      Width = 121
+      Height = 14
+      Caption = #1040#1074#1090#1086#1087#1086#1074#1086#1088#1086#1090' '#1086#1090#1082#1083#1102#1095#1077#1085
+    end
+    object SpeedButton1: TSpeedButton
+      Left = 24
+      Top = 110
+      Width = 24
+      Height = 24
+      Flat = True
+      Glyph.Data = {
+        F6060000424DF606000000000000360000002800000018000000180000000100
+        180000000000C0060000C30E0000C30E00000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE3E2E2B7B6B6
+        9D9C9C858484838181999797B2B1B1DDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDEDDDD86
+        85854E4C4C3E3C3C3B39393B39393B39393B39393D3B3B4B49497E7D7DD3D2D2
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFB0AFAF4D4B4B3D3B3B3E3C3C403E3E5150505F5D5D605F5F555353423F3F3E
+        3C3C3D3B3B4644449E9D9DFDFDFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFAFAFA9C9B9B3F3D3D423F3F413F3F757474B5B4B4E9E9E9F7F7F7F8F8
+        F8EEEEEEBFBEBE7F7D7D454343413F3F3D3B3B8D8C8CFDFDFDFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFE9E9E95553533937374E4C4CB6B5B5FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC6C6C65655554240403D3B3BA09F
+        9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE4E4E4767575CBCBCBFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDEDEDE
+        575555423F3F464545D6D6D6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFC8C8C84442423D3B3B7E7D7DFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7F7E7E3E3C3C4A4848DDDDDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        D5D9F77380E66D7BE5C7CCF5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC4C4C44240
+        403D3B3BB4B3B3FFFFFFF8F8F8CCCBCBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFD6DAF83B4DDC2A3ED92B3FD93144DAC6CCF5FFFFFFFFFFFFFFFFFF
+        FFFFFFF2F2F25654543A3838999898FFFFFFE7E6E64947477A7979DDDCDCFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF97A1EC283CD8374ADB374ADB2B3FD96C7AE5FF
+        FFFFFFFFFFFFFFFFFFFFFFFAFAFA6261613A3838848383FFFFFFD1D1D1434141
+        3E3C3C4C4A4A9D9B9BF2F2F2FFFFFFFFFFFFFFFFFF9BA5ED273BD8374ADB374A
+        DB2A3ED87380E6FFFFFFFFFFFFFFFFFFFFFFFFFAFAFA6260603A3838858383FF
+        FFFFC1C0C0413F3F4947474644443E3C3C5E5D5DBFBEBEFFFFFFFFFFFFDEE1F9
+        4658DE263BD8273CD83B4DDCD5D9F7FFFFFFFFFFFFFFFFFFFFFFFFF0F0F05553
+        533B39399B9A9AFFFFFFB2B1B13F3D3D494747494747494747403E3E36343481
+        8080F2F1F1FFFFFFE1E3FA9CA5ED98A2EDD7DBF8FFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFBDBCBC403E3E3E3C3CB7B6B6FFFFFFA09F9F3E3C3C4947474947474745
+        455755558E8D8DD8D8D8FBFBFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFF7978783E3C3C4D4B4BE2E1E1FFFFFF8381813C3A3A
+        3F3D3D464444413F3F9E9D9DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBEBDBD4140403D3B3B848383FFFFFFFF
+        FFFF5755555250509B9A9A5957574240404A4848C0C0C0FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD5D4D4514F4F413F3F4B49
+        49DCDCDCFFFFFFFFFFFFA5A4A4ECEBEBFFFFFFBFBFBF413F3F424040474646A9
+        A7A7F7F7F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFCFCB4B4B44E4C4C
+        4240403D3B3BABAAAAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFADAC
+        AC424040413F3F403E3E656464ADACACD1D0D0E8E8E8E9E9E9D4D3D3B3B2B270
+        6E6E413F3F4240403D3B3B979696FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFBDBDBD5251513E3C3C3F3D3D3E3C3C444343504E4E514F
+        4F4644443F3D3D3F3C3C3E3C3C4C4A4AADADADFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE9E9E9929191585656403E3E
+        3D3A3A3C3A3A3C3A3A3D3B3B3F3D3D535252868585DFDFDFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFF3F2F2C1C0C09A99998E8D8D8E8D8D989797BBBABAEDEDEDFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      OnMouseDown = SpeedButton1MouseDown
+    end
+    object Button4: TButton
+      Left = 155
+      Top = 79
+      Width = 20
+      Height = 20
+      Caption = '+'
+      TabOrder = 0
+      OnMouseDown = Button4MouseDown
+    end
+    object Button2: TButton
+      Left = 155
+      Top = 53
+      Width = 20
+      Height = 20
+      Caption = '+'
+      TabOrder = 1
+      OnMouseDown = Button2MouseDown
+    end
+    object Button1: TButton
+      Left = 87
+      Top = 53
+      Width = 20
+      Height = 20
+      Caption = '-'
+      TabOrder = 2
+      OnMouseDown = Button1MouseDown
+    end
+    object Button3: TButton
+      Left = 87
+      Top = 79
+      Width = 20
+      Height = 20
+      Caption = '-'
+      TabOrder = 3
+      OnMouseDown = Button3MouseDown
+    end
+    object RadioButton1: TRadioButton
+      Left = 24
+      Top = 56
+      Width = 57
+      Height = 17
+      Caption = #1054#1089#1100' X'
+      Checked = True
+      TabOrder = 4
+      TabStop = True
+    end
+    object RadioButton2: TRadioButton
+      Left = 24
+      Top = 79
+      Width = 57
+      Height = 17
+      Caption = #1054#1089#1100' Y'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Panel2: TPanel
+      Left = 0
+      Top = 0
+      Width = 209
+      Height = 41
+      Align = alTop
+      BevelOuter = bvNone
+      Caption = #1055#1086#1074#1086#1088#1086#1090
+      Color = clBtnHighlight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 6
+      ExplicitWidth = 200
+    end
+    object Panel3: TPanel
+      Left = 113
+      Top = 54
+      Width = 36
+      Height = 18
+      BevelOuter = bvNone
+      Color = clCream
+      ParentBackground = False
+      TabOrder = 7
+      object Label1: TLabel
+        Left = 0
+        Top = 0
+        Width = 36
+        Height = 18
+        Align = alClient
+        Alignment = taCenter
+        Caption = '0'
+        Color = clBlack
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        ExplicitLeft = 14
+        ExplicitTop = 6
+        ExplicitWidth = 8
+        ExplicitHeight = 16
+      end
+    end
+    object Panel4: TPanel
+      Left = 113
+      Top = 80
+      Width = 36
+      Height = 18
+      BevelOuter = bvNone
+      Color = clCream
+      ParentBackground = False
+      TabOrder = 8
+      object Label2: TLabel
+        Left = 0
+        Top = 0
+        Width = 36
+        Height = 18
+        Align = alClient
+        Alignment = taCenter
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitLeft = 14
+        ExplicitTop = 6
+        ExplicitWidth = 8
+        ExplicitHeight = 16
+      end
+    end
+  end
+  object Panel5: TPanel
+    Left = 15
+    Top = 176
+    Width = 209
+    Height = 121
+    BevelOuter = bvNone
+    Color = clCream
+    ParentBackground = False
+    TabOrder = 2
+    object Panel6: TPanel
+      Left = 0
+      Top = 0
+      Width = 209
+      Height = 41
+      Align = alTop
+      BevelOuter = bvNone
+      Caption = #1055#1077#1088#1077#1084#1077#1097#1077#1085#1080#1077
+      Color = clBtnHighlight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 0
+      ExplicitLeft = 16
+      ExplicitTop = 24
+      ExplicitWidth = 185
+    end
+    object RadioButton3: TRadioButton
+      Left = 24
+      Top = 56
+      Width = 49
+      Height = 17
+      Caption = #1054#1089#1100' X'
+      Checked = True
+      TabOrder = 1
+      TabStop = True
+    end
+    object RadioButton4: TRadioButton
+      Left = 24
+      Top = 79
+      Width = 57
+      Height = 17
+      Caption = #1054#1089#1100' Y'
+      TabOrder = 2
+    end
+    object Button5: TButton
+      Left = 87
+      Top = 53
+      Width = 20
+      Height = 20
+      Caption = '-'
+      TabOrder = 3
+      OnMouseDown = Button5MouseDown
+    end
+    object Button6: TButton
+      Left = 155
+      Top = 53
+      Width = 20
+      Height = 20
+      Caption = '+'
+      TabOrder = 4
+      OnMouseDown = Button6MouseDown
+    end
+    object Button7: TButton
+      Left = 87
+      Top = 79
+      Width = 20
+      Height = 20
+      Caption = '-'
+      TabOrder = 5
+      OnMouseDown = Button7MouseDown
+    end
+    object Button8: TButton
+      Left = 155
+      Top = 79
+      Width = 20
+      Height = 20
+      Caption = '+'
+      TabOrder = 6
+      OnMouseDown = Button8MouseDown
+    end
+    object Panel7: TPanel
+      Left = 113
+      Top = 80
+      Width = 36
+      Height = 18
+      BevelOuter = bvNone
+      TabOrder = 7
+      object Label8: TLabel
+        Left = 0
+        Top = 0
+        Width = 36
+        Height = 18
+        Align = alClient
+        Alignment = taCenter
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitLeft = 24
+        ExplicitTop = -2
+        ExplicitWidth = 8
+        ExplicitHeight = 16
+      end
+    end
+    object Panel8: TPanel
+      Left = 113
+      Top = 54
+      Width = 36
+      Height = 18
+      BevelOuter = bvNone
+      TabOrder = 8
+      object Label7: TLabel
+        Left = 0
+        Top = 0
+        Width = 36
+        Height = 18
+        Align = alClient
+        Alignment = taCenter
+        Caption = '0'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitLeft = 24
+        ExplicitTop = -2
+        ExplicitWidth = 8
+        ExplicitHeight = 16
+      end
+    end
+  end
+  object Panel9: TPanel
+    Left = 15
+    Top = 312
+    Width = 209
+    Height = 105
+    BevelOuter = bvNone
+    Color = clCream
+    ParentBackground = False
+    TabOrder = 3
+    object SpeedButton2: TSpeedButton
+      Left = 24
+      Top = 58
+      Width = 24
+      Height = 24
+      Glyph.Data = {
+        F6060000424DF606000000000000360000002800000018000000180000000100
+        180000000000C0060000C30E0000C30E00000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE3E2E2B7B6B6
+        9D9C9C858484838181999797B2B1B1DDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDEDDDD86
+        85854E4C4C3E3C3C3B39393B39393B39393B39393D3B3B4B49497E7D7DD3D2D2
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFB0AFAF4D4B4B3D3B3B3E3C3C403E3E5150505F5D5D605F5F555353423F3F3E
+        3C3C3D3B3B4644449E9D9DFDFDFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFAFAFA9C9B9B3F3D3D423F3F413F3F757474B5B4B4E9E9E9F7F7F7F8F8
+        F8EEEEEEBFBEBE7F7D7D454343413F3F3D3B3B8D8C8CFDFDFDFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFE9E9E95553533937374E4C4CB6B5B5FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC6C6C65655554240403D3B3BA09F
+        9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE4E4E4767575CBCBCBFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDEDEDE
+        575555423F3F464545D6D6D6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFC8C8C84442423D3B3B7E7D7DFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7F7E7E3E3C3C4A4848DDDDDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        D5D9F77380E66D7BE5C7CCF5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC4C4C44240
+        403D3B3BB4B3B3FFFFFFF8F8F8CCCBCBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFD6DAF83B4DDC2A3ED92B3FD93144DAC6CCF5FFFFFFFFFFFFFFFFFF
+        FFFFFFF2F2F25654543A3838999898FFFFFFE7E6E64947477A7979DDDCDCFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF97A1EC283CD8374ADB374ADB2B3FD96C7AE5FF
+        FFFFFFFFFFFFFFFFFFFFFFFAFAFA6261613A3838848383FFFFFFD1D1D1434141
+        3E3C3C4C4A4A9D9B9BF2F2F2FFFFFFFFFFFFFFFFFF9BA5ED273BD8374ADB374A
+        DB2A3ED87380E6FFFFFFFFFFFFFFFFFFFFFFFFFAFAFA6260603A3838858383FF
+        FFFFC1C0C0413F3F4947474644443E3C3C5E5D5DBFBEBEFFFFFFFFFFFFDEE1F9
+        4658DE263BD8273CD83B4DDCD5D9F7FFFFFFFFFFFFFFFFFFFFFFFFF0F0F05553
+        533B39399B9A9AFFFFFFB2B1B13F3D3D494747494747494747403E3E36343481
+        8080F2F1F1FFFFFFE1E3FA9CA5ED98A2EDD7DBF8FFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFBDBCBC403E3E3E3C3CB7B6B6FFFFFFA09F9F3E3C3C4947474947474745
+        455755558E8D8DD8D8D8FBFBFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFF7978783E3C3C4D4B4BE2E1E1FFFFFF8381813C3A3A
+        3F3D3D464444413F3F9E9D9DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBEBDBD4140403D3B3B848383FFFFFFFF
+        FFFF5755555250509B9A9A5957574240404A4848C0C0C0FFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD5D4D4514F4F413F3F4B49
+        49DCDCDCFFFFFFFFFFFFA5A4A4ECEBEBFFFFFFBFBFBF413F3F424040474646A9
+        A7A7F7F7F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFCFCB4B4B44E4C4C
+        4240403D3B3BABAAAAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFADAC
+        AC424040413F3F403E3E656464ADACACD1D0D0E8E8E8E9E9E9D4D3D3B3B2B270
+        6E6E413F3F4240403D3B3B979696FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFBDBDBD5251513E3C3C3F3D3D3E3C3C444343504E4E514F
+        4F4644443F3D3D3F3C3C3E3C3C4C4A4AADADADFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE9E9E9929191585656403E3E
+        3D3A3A3C3A3A3C3A3A3D3B3B3F3D3D535252868585DFDFDFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFF3F2F2C1C0C09A99998E8D8D8E8D8D989797BBBABAEDEDEDFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      OnMouseDown = SpeedButton2MouseDown
+    end
+    object Label4: TLabel
+      Left = 60
+      Top = 62
+      Width = 103
+      Height = 13
+      Caption = #1040#1085#1080#1084#1072#1094#1080#1103' '#1074#1082#1083#1102#1095#1077#1085#1072
+    end
+    object Panel10: TPanel
+      Left = 0
+      Top = 0
+      Width = 209
+      Height = 41
+      Align = alTop
+      BevelOuter = bvNone
+      Caption = #1040#1085#1080#1084#1072#1094#1080#1103
+      Color = clBtnHighlight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 0
+      ExplicitTop = 8
+      ExplicitWidth = 185
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 408
+    Top = 320
+  end
+  object Timer2: TTimer
+    Interval = 200
+    OnTimer = Timer2Timer
+    Left = 408
+    Top = 376
+  end
+  object Timer3: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer3Timer
+    Left = 240
+    Top = 120
+  end
+end

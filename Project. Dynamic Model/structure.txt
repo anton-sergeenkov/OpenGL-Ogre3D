@@ -1,0 +1,25 @@
+
+[ИСХОДНИКИ]
+
+// файлы проекта программы
+objModel.dproj
+objModel.dpr
+
+// главная форма
+frmMain.dfm
+frmMain.pas
+
+// парсер данных модели (вершины, нормали, полигоны) из файла .obj в массивы данных
+unitParserObj.pas 
+
+// фрейм для отображения настроек модели
+frameModel.pas 
+frameModel.dfm
+
+
+[ПРОГРАММА]
+
+Win32/Debug/objModel.exe // исполняемый файл программы
+Win32/Debug/heart.obj    // модель сердца (полностью) из Blender
+Win32/Debug/up.obj       // модель сердца (только предсердия) из Blender
+Win32/Debug/down.obj     // модель сердца (только желудочки) из Blender 

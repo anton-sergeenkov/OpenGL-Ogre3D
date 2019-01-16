@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.967,C:\Users\Anton\Desktop 2\objModel\frmSettingTors.pas=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,C:\Users\Anton\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Anton\Desktop\objModel\frmMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.422,C:\Users\Anton\Desktop 2\objModel\Unit1.pas=C:\Users\Anton\Desktop 2\objModel\unitConsts.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.899,C:\Users\Anton\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Anton\Desktop\objModel\objModel.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,C:\Users\Anton\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Anton\Desktop\objModel\frmMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.791,=C:\Users\Anton\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,C:\Users\Anton\Desktop 2\objModel\Unit1.dfm=C:\Users\Anton\Desktop 2\objModel\frmCaseModel.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,C:\Users\Anton\Desktop 2\objModel\frmSettingOne.dfm=C:\Users\Anton\Desktop 2\objModel\frmSetting1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.563,=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,C:\Users\Anton\Desktop 2\objModel\frmSetting1.dfm=C:\Users\Anton\Desktop 2\objModel\frmSetting.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.729,C:\Users\Anton\Desktop 2\objModel\frmControlBar.dfm=C:\Users\Anton\Desktop 2\objModel\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.374,C:\Users\Anton\Desktop\objModel\unitParserObj.pas=C:\Users\Anton\Desktop\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.100,C:\Users\Anton\Desktop 2\objModel\frmSettingTwo.dfm=C:\Users\Anton\Desktop 2\objModel\frmSetting2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.257,=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.018,=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,C:\Users\Anton\Desktop 2\objModel\Unit1.pas=C:\Users\Anton\Desktop 2\objModel\frmCaseModel.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.711,=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.176,C:\Users\Anton\Desktop\objModel\Unit1.pas=C:\Users\Anton\Desktop\objModel\frmSetting1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,C:\Users\Anton\Desktop 2\objModel\frmSetting1.pas=C:\Users\Anton\Desktop 2\objModel\frmSetting.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.016,C:\Users\Anton\Desktop 2\objModel\frmCaseModel.dfm=C:\Users\Anton\Desktop 2\objModel\frmSettingTwo.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.626,C:\Users\Anton\Desktop 2\objModel\frmModel1.pas=C:\Users\Anton\Desktop 2\objModel\frmModel.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,C:\Users\Anton\Desktop\objModel\frmModel1.dfm=C:\Users\Anton\Desktop\objModel\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.016,C:\Users\Anton\Desktop 2\objModel\frmCaseModel.pas=C:\Users\Anton\Desktop 2\objModel\frmSettingTwo.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.967,C:\Users\Anton\Desktop 2\objModel\frmSettingTors.dfm=C:\Users\Anton\Desktop 2\objModel\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,C:\Users\Anton\Desktop 2\objModel\frmSetting.dfm=C:\Users\Anton\Desktop 2\objModel\frmSettingOne.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,C:\Users\Anton\Desktop 2\objModel\frmSetting.pas=C:\Users\Anton\Desktop 2\objModel\frmSettingOne.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.176,C:\Users\Anton\Desktop\objModel\Unit1.dfm=C:\Users\Anton\Desktop\objModel\frmSetting1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.893,=C:\Users\Anton\Desktop\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.626,C:\Users\Anton\Desktop 2\objModel\frmModel1.dfm=C:\Users\Anton\Desktop 2\objModel\frmModel.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,=C:\Users\Anton\Desktop\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,=C:\Users\Anton\Desktop\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.100,C:\Users\Anton\Desktop 2\objModel\frmSettingTwo.pas=C:\Users\Anton\Desktop 2\objModel\frmSetting2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.729,C:\Users\Anton\Desktop 2\objModel\frmControlBar.pas=C:\Users\Anton\Desktop 2\objModel\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,C:\Users\Anton\Desktop 2\objModel\frmSettingOne.pas=C:\Users\Anton\Desktop 2\objModel\frmSetting1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,C:\Users\Anton\Desktop\objModel\frmModel1.pas=C:\Users\Anton\Desktop\objModel\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="frmMain.pas"/>
+    <File Path="frmMain.dfm"/>
+    <File Path="frmSetting1.pas"/>
+    <File Path="frmSetting1.dfm"/>
+    <File Path="frmSetting2.pas"/>
+    <File Path="frmSetting2.dfm"/>
+    <File Path="frmModel.pas"/>
+    <File Path="frmModel.dfm"/>
+    <File Path="unitConsts.pas"/>
+    <File Path="unitParserObj.pas"/>
+    <File Path="frmSettingTors.pas"/>
+    <File Path="frmSettingTors.dfm"/>
+    <File Path="frmControlBar.pas"/>
+    <File Path="frmControlBar.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
